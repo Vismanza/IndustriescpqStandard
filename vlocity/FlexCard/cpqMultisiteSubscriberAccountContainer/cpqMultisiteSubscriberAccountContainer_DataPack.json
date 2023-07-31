@@ -1,0 +1,26 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "cpqMultisiteSubscriberAccountContainer.json",
+    "Description": "Display Subscriber Account Grid Table",
+    "OmniUiCardKey": "cpqMultisiteSubscriberAccountContainer/Vlocity/1/1639387638142",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "cpqMultisitePremisesContainer/Vlocity/1/1635848545966",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqMultisiteSubscriberAccountContainer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqMultisiteSubscriberAccountContainer"
+}

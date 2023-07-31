@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 0,
+                "name": "Parent.adjustmentMode",
+                "val": "Absolute"
+            }
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "cpqManualPriceAdjustmentsActionsChild.json",
+    "Description": "CPQ Manual Price Adjustments: Actions: \"Adjust Price\" card\nChild Flexcard containing Adjustment Modes",
+    "OmniUiCardKey": "cpqManualPriceAdjustmentsActionsChild/Vlocity/2/1616042788221",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "cpqManualPriceAdjustmentsChild/Vlocity/3/1614846025877",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\".cpq__adjust-pricing-elements_padding{\\n    padding-right: 16px;\\n    padding-bottom: 16px;\\n}\\n\\n.cpq__adjust-pricing-nonlabel-elements_padding{\\n    padding-top: 24px;\\n}\\n\\n@media only screen and (max-width: 480px) {\\n    .cpq__adjust-pricing-nonlabel-elements_padding{\\n        padding-top: 0px;\\n    }\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqManualPriceAdjustmentsActionsChild",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqManualPriceAdjustmentsActionsChild"
+}

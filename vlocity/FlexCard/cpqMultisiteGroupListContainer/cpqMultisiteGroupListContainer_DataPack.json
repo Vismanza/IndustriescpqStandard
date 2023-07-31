@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"groups\": []}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "PropertySetConfig": "cpqMultisiteGroupListContainer.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqMultisiteGroupListContainer/Vlocity/1/1631691452165",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "",
+    "SampleDataSourceResponse": "{\"groups\":[]}",
+    "StylingConfiguration": "{\"customStyles\":\".cpq__multisite-group-search{\\n    background: #E5E5E5;\\n    outline: 0;\\n    border: none;\\n    margin: 0;\\n}\\n.group-dropdown-container{\\n    max-height: 300px;\\n    overflow-y: auto;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqMultisiteGroupListContainer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqMultisiteGroupListContainer"
+}

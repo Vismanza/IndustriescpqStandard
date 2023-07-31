@@ -1,0 +1,32 @@
+{
+    "additionalData": {
+        "accountId": "0015e00000A0QIEAA3",
+        "cartConfiguration": [
+            {
+                "target": [
+                ]
+            }
+        ],
+        "cartId": "8015e000001dO6UAAU",
+        "cartType": "Order",
+        "groupCartId": "8015e000001dO6VAAU",
+        "orderId": "8015e000001dO6UAAU",
+        "userID": "0055e000003mhGeAAI"
+    },
+    "asyncProcessId": "c0840851-278f-d030-a49e-ce3a4e005da5",
+    "asyncProcessName": "Bulk Change for 8015e000001dO6UAAU Single Product 1",
+    "currentNumberOfItemsProccessed": 1,
+    "itemsProcessed": {
+        "failed": [
+        ],
+        "successfully": [
+            "e2d21073-bfab-adb9-68a0-a642875c8cce"
+        ]
+    },
+    "message": "In progress.",
+    "referenceId": "8015e000001dO6UAAU",
+    "status": "Success",
+    "stepName": "Price",
+    "stepNumber": 5,
+    "totalNumberOfItemsToBeProccessed": 1
+}

@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"name\":\"\",\"description\":\"\", \"select\":true, \"submitted\":false, \"add\":false, \"nameChanged\":false, \"descriptionChanged\":false}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "PropertySetConfig": "cpqMultiSiteCreateGroup.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqMultiSiteCreateGroup/Vlocity/3/1635311185858",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "cpqCreateGroup/Vlocity/2/1631108994463",
+    "SampleDataSourceResponse": "{\"name\":\"\",\"description\":\"\",\"select\":true,\"submitted\":false,\"add\":false,\"nameChanged\":false,\"descriptionChanged\":false}",
+    "StylingConfiguration": "{\"customStyles\":\".buttons{\\n    margin-left: auto;\\n    width:fit-content;\\n}\\n.custom-btn{\\n    width:fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n}\\n\\n.custom-btn .slds-button{\\n    border-radius: 0px;\\n    margin-right: 5px;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqMultiSiteCreateGroup",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqMultiSiteCreateGroup"
+}

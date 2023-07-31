@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"options\":[{\"value\":\"+ Add\",\"label\":\"+Add\"}],\"submitted\":false,\"name\":\"\"}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "PropertySetConfig": "cpqMultiSiteCombobox.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqMultiSiteCombobox/Vlocity/2/1645591038168",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "multiSiteCombobox/Vlocity/1/1630993619772",
+    "SampleDataSourceResponse": "{\"options\":[{\"value\":\"+ Add\",\"label\":\"+Add\"}],\"submitted\":false,\"name\":\"\"}",
+    "StylingConfiguration": "",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 2,
+    "Name": "cpqMultiSiteCombobox",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqMultiSiteCombobox"
+}

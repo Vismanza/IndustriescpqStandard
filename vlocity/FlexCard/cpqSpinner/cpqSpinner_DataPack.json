@@ -1,0 +1,26 @@
+{
+    "AuthorName": "CPQ",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "cpqSpinner.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqSpinner/CPQ/1/1624347784025",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqSpinner",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqSpinner"
+}

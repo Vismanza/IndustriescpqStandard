@@ -1,0 +1,26 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "cpqProductDetailsPopup.json",
+    "Description": "Modal popup of the product details",
+    "OmniUiCardKey": "cpqProductDetailsPopup/Vlocity/3/1659710693529",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\".cpq__product_details_body{\\n    color: #444444;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 3,
+    "Name": "cpqProductDetailsPopup",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqProductDetailsPopup"
+}

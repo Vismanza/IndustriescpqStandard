@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedOutputJson>[ {
+  &quot;active&quot; : &quot;Text&quot;,
+  &quot;attributes&quot; : [ {
+    &quot;active&quot; : &quot;Text&quot;,
+    &quot;id&quot; : &quot;Text&quot;,
+    &quot;isCloneable&quot; : &quot;Text&quot;,
+    &quot;isFilterable&quot; : &quot;Text&quot;,
+    &quot;name&quot; : &quot;Text&quot;,
+    &quot;parentId&quot; : &quot;Text&quot;,
+    &quot;value&quot; : &quot;Text&quot;
+  } ],
+  &quot;createdDate&quot; : &quot;Text&quot;,
+  &quot;description&quot; : &quot;Text&quot;,
+  &quot;id&quot; : &quot;Text&quot;,
+  &quot;name&quot; : &quot;Text&quot;,
+  &quot;productCode&quot; : &quot;Text&quot;
+} ]</expectedOutputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>ExtractAllProductWithAttributes</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <defaultValue>null</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom7144</globalKey>
+        <inputFieldName>products:Description</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>description</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom9476</globalKey>
+        <inputFieldName>products:Id</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>id</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom7941</globalKey>
+        <inputFieldName>products:attributes:vlocity_cmt__Value__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>attributes:value</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>null</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom3452</globalKey>
+        <inputFieldName>products:CreatedDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>createdDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>productIds:Id</filterValue>
+        <globalKey>ExtractAllProductWithAttributesCustom3779</globalKey>
+        <inputFieldName>Id</inputFieldName>
+        <inputObjectName>Product2</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>products</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom1767</globalKey>
+        <inputFieldName>products:attributes:vlocity_cmt__ObjectId__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>attributes:parentId</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom651</globalKey>
+        <inputFieldName>products:attributes:vlocity_cmt__AttributeId__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>attributes:attributeId</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom8045</globalKey>
+        <inputFieldName>products:attributes:Id</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>attributes:id</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom9213</globalKey>
+        <inputFieldName>products:IsActive</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>active</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom8252</globalKey>
+        <inputFieldName>products:attributes:vlocity_cmt__IsActive__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>attributes:active</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>null</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom8043</globalKey>
+        <inputFieldName>products:ProductCode</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>productCode</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>products:Id</filterValue>
+        <globalKey>ExtractAllProductWithAttributesCustom8116</globalKey>
+        <inputFieldName>vlocity_cmt__ObjectId__c</inputFieldName>
+        <inputObjectName>vlocity_cmt__AttributeAssignment__c</inputObjectName>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>products:attributes</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom110</globalKey>
+        <inputFieldName>products:LastModifiedDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>lastModifiedDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom2484</globalKey>
+        <inputFieldName>products:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>name</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom5062</globalKey>
+        <inputFieldName>products:attributes:vlocity_cmt__AttributeName__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>attributes:name</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom1255</globalKey>
+        <inputFieldName>products:attributes:vlocity_cmt__AttributeCloneable__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>attributes:isCloneable</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>ExtractAllProductWithAttributesCustom4382</globalKey>
+        <inputFieldName>products:attributes:vlocity_cmt__AttributeFilterable__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>ExtractAllProductWithAttributes</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>attributes:isFilterable</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;productIds&quot; : [ {
+    &quot;Id&quot; : &quot;01t2x000000hEpsAAE&quot;
+  }, {
+    &quot;Id&quot; : &quot;01t2x000000hEpsAAE&quot;
+  }, {
+    &quot;Id&quot; : &quot;01t2x000000hEpsAAE&quot;
+  }, {
+    &quot;Id&quot; : &quot;01t2x000000hEpsAAE&quot;
+  }, {
+    &quot;Id&quot; : &quot;01t2x000000hEpsAAE&quot;
+  }, {
+    &quot;Id&quot; : &quot;01t2x000000hEpsAAE&quot;
+  }, {
+    &quot;Id&quot; : &quot;01t2x000000hEpsAAE&quot;
+  }, {
+    &quot;Id&quot; : &quot;01t2x000000hEpsAAE&quot;
+  }, {
+    &quot;Id&quot; : &quot;01t2x000000hEpsAAE&quot;
+  }, {
+    &quot;Id&quot; : &quot;01t2x000000hEpsAAE&quot;
+  } ]
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Extract</type>
+    <uniqueName>ExtractAllProductWithAttributes_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

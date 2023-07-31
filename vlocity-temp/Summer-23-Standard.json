@@ -1,0 +1,11 @@
+{
+    "username": "andrew@summer23.euc.runtime",
+    "id": "00D8d00000AYNxMEAX",
+    "connectedStatus": "Connected",
+    "accessToken": "00D8d00000AYNxM!ARYAQDpXYIRD1vb9CEV6NjJeemJVEBFAkSOIzbWJ9a9c0LNedKMxpBHiZY4BNfHWFzst20NAj1Dc2a7WmTEuFC8ynPuZuSrH",
+    "instanceUrl": "https://summer23-euc-runtime.my.salesforce.com",
+    "clientId": "PlatformCLI",
+    "sfdxAuthUrl": "force://PlatformCLI::5Aep861g78ZB7.52BeSsoLBoV3fzVV_2QZdFCQ41pZxVS.IFngH1ziw5AQqskkUg64QFSteLtbHDxFkGJCyBq.g@summer23-euc-runtime.my.salesforce.com",
+    "alias": "Summer 23 Standard",
+    "vbtSfdxUsername": "Summer 23 Standard"
+}

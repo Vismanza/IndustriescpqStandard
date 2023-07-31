@@ -1,0 +1,26 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "cpqOrderStatusDiscardedDesktop.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqOrderStatusDiscardedDesktop/Vlocity/2/1644312799594",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "cpqAmendRequestedDesktop/Vlocity/2/1623432104541",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\"\\n.incomplete-btn {\\n    border: 1px solid #ddd;\\n    height: 32px;\\n    width: fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n    background: #C9C7C5;\\n    color: #FFFFFF;\\n    margin-right: 8px;\\n}\\n\\n.custom-btn{\\n    width:fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n}\\n\\n.custom-btn .slds-button{\\n    border-radius: 0px;\\n    margin-right: -1px;\\n}\\n\\n.submit-btn{\\n    width:fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n}\\n\\n.submit-btn .slds-button{\\n    border-radius: 0px;\\n    margin-right: 8px;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 2,
+    "Name": "cpqOrderStatusDiscardedDesktop",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqOrderStatusDiscardedDesktop"
+}

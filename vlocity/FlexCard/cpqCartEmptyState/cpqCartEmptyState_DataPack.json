@@ -1,0 +1,26 @@
+{
+    "AuthorName": "Salesforce",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "cpqCartEmptyState.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqCartEmptyState/Salesforce/1/1646128638373",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqCartEmptyState",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqCartEmptyState"
+}

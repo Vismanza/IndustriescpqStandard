@@ -1,0 +1,36 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 0,
+                "name": "Parent.cartId",
+                "val": "8015g000000oZ8fAAEr"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": " [{\"label\":\"Group\", \"value\":[], \"groupIds\": \"\"}]",
+            "dsDelay": 0,
+            "resultVar": ""
+        }
+    },
+    "PropertySetConfig": "cpqDetailViewFlexTableContainer.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqDetailViewFlexTableContainer/Vlocity/3/1663037764698",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "ChampioChild/Vlocity/1/1612193338689",
+    "SampleDataSourceResponse": "[{\"label\":\"Group\",\"value\":[],\"groupIds\":\"\"}]",
+    "StylingConfiguration": "",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 3,
+    "Name": "cpqDetailViewFlexTableContainer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqDetailViewFlexTableContainer"
+}

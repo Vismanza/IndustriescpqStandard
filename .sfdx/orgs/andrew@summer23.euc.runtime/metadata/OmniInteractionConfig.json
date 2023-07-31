@@ -1,0 +1,83 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0058d000007cYZWAA2",
+      "createdByName": "Andrew Visser",
+      "createdDate": "2023-07-24T16:57:51.000Z",
+      "fileName": "OmniInteractionConfig/RollbackDRchanges.omniInteractionConfig",
+      "fullName": "RollbackDRchanges",
+      "id": "0yY8d000000blhNEAQ",
+      "lastModifiedById": "0058d000007cYZWAA2",
+      "lastModifiedByName": "Andrew Visser",
+      "lastModifiedDate": "2023-07-24T16:57:51.000Z",
+      "manageableState": "unmanaged",
+      "type": "OmniInteractionConfig"
+    },
+    {
+      "createdById": "0058d000007cYZWAA2",
+      "createdByName": "Andrew Visser",
+      "createdDate": "2023-07-25T08:05:58.000Z",
+      "fileName": "OmniInteractionConfig/ShowLegacyOmniStudioUi.omniInteractionConfig",
+      "fullName": "ShowLegacyOmniStudioUi",
+      "id": "0yY8d000000blhXEAQ",
+      "lastModifiedById": "0058d000007cYZWAA2",
+      "lastModifiedByName": "Andrew Visser",
+      "lastModifiedDate": "2023-07-25T08:05:58.000Z",
+      "manageableState": "unmanaged",
+      "type": "OmniInteractionConfig"
+    },
+    {
+      "createdById": "0058d000007cYZWAA2",
+      "createdByName": "Andrew Visser",
+      "createdDate": "2023-07-24T16:57:58.000Z",
+      "fileName": "OmniInteractionConfig/RollbackIPChanges.omniInteractionConfig",
+      "fullName": "RollbackIPChanges",
+      "id": "0yY8d000000blhSEAQ",
+      "lastModifiedById": "0058d000007cYZWAA2",
+      "lastModifiedByName": "Andrew Visser",
+      "lastModifiedDate": "2023-07-24T16:57:58.000Z",
+      "manageableState": "unmanaged",
+      "type": "OmniInteractionConfig"
+    },
+    {
+      "createdById": "0058d000007cYslAAE",
+      "createdByName": "Vlocity CMT",
+      "createdDate": "2023-07-21T14:12:38.000Z",
+      "fileName": "OmniInteractionConfig/TheFirstInstalledOmniPackage.omniInteractionConfig",
+      "fullName": "TheFirstInstalledOmniPackage",
+      "id": "0yY8d000000blh9EAA",
+      "lastModifiedById": "0058d000007cYslAAE",
+      "lastModifiedByName": "Vlocity CMT",
+      "lastModifiedDate": "2023-07-21T14:12:38.000Z",
+      "manageableState": "unmanaged",
+      "type": "OmniInteractionConfig"
+    },
+    {
+      "createdById": "0058d000007cYslAAE",
+      "createdByName": "Vlocity CMT",
+      "createdDate": "2023-07-21T14:12:38.000Z",
+      "fileName": "OmniInteractionConfig/InstalledIndustryPackage.omniInteractionConfig",
+      "fullName": "InstalledIndustryPackage",
+      "id": "0yY8d000000blh8EAA",
+      "lastModifiedById": "0058d000007cYslAAE",
+      "lastModifiedByName": "Vlocity CMT",
+      "lastModifiedDate": "2023-07-21T14:12:38.000Z",
+      "manageableState": "unmanaged",
+      "type": "OmniInteractionConfig"
+    },
+    {
+      "createdById": "0058d000007cYZWAA2",
+      "createdByName": "Andrew Visser",
+      "createdDate": "2023-07-25T08:06:15.000Z",
+      "fileName": "OmniInteractionConfig/TurnOffScaleCache.omniInteractionConfig",
+      "fullName": "TurnOffScaleCache",
+      "id": "0yY8d000000blhcEAA",
+      "lastModifiedById": "0058d000007cYZWAA2",
+      "lastModifiedByName": "Andrew Visser",
+      "lastModifiedDate": "2023-07-25T08:06:15.000Z",
+      "manageableState": "unmanaged",
+      "type": "OmniInteractionConfig"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "PropertySetConfig": "cpqSearchChildProducts.json",
+    "Description": "This flex card is used for mini search in the configurator.",
+    "OmniUiCardKey": "cpqSearchChildProducts/Vlocity/2/1661488708969",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 2,
+    "Name": "cpqSearchChildProducts",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqSearchChildProducts"
+}

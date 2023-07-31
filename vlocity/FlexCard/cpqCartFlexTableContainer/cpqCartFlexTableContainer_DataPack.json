@@ -1,0 +1,28 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "type": null,
+            "value": {
+            }
+        }
+    },
+    "PropertySetConfig": "cpqCartFlexTableContainer.json",
+    "Description": "This card is container to display line items in the cart.",
+    "OmniUiCardKey": "cpqCartFlexTableContainer/Vlocity/2/1662997431928",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "",
+    "SampleDataSourceResponse": "{\"showLineItems\":true}",
+    "StylingConfiguration": "",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 2,
+    "Name": "cpqCartFlexTableContainer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqCartFlexTableContainer"
+}

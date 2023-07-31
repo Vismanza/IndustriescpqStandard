@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n  {\n    \"type\": \"text\",\n    \"fieldName\": \"%vlocity_namespace%__MarketIdentifier__c.value\",\n    \"label\": \"Market Identifier\",\n    \"title\": \"ServicePoints Data\"\n  },\n  {\n    \"type\": \"text\",\n    \"fieldName\": \"%vlocity_namespace%__PremisesId__r.%vlocity_namespace%__StreetAddress__c.value\",\n    \"label\": \"Street Address\"\n  },\n  {\n    \"type\": \"text\",\n    \"fieldName\": \"%vlocity_namespace%__PremisesId__r.%vlocity_namespace%__City__c.value\",\n    \"label\": \"City\"\n  }\n]",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "PropertySetConfig": "cpqMultisiteTableColumnFilter.json",
+    "Description": "This flexcard is to show/hide the columns of an Grid Tree Component",
+    "OmniUiCardKey": "cpqMultisiteTableColumnFilter/Vlocity/1/1632729244958",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "",
+    "SampleDataSourceResponse": "[{\"type\":\"text\",\"fieldName\":\"%vlocity_namespace%__MarketIdentifier__c.value\",\"label\":\"Market Identifier\",\"title\":\"ServicePoints Data\"},{\"type\":\"text\",\"fieldName\":\"%vlocity_namespace%__PremisesId__r.%vlocity_namespace%__StreetAddress__c.value\",\"label\":\"Street Address\"},{\"type\":\"text\",\"fieldName\":\"%vlocity_namespace%__PremisesId__r.%vlocity_namespace%__City__c.value\",\"label\":\"City\"}]",
+    "StylingConfiguration": "{\"customStyles\":\".cpq_multisite_column_filter_checkbox {\\n    max-height: 30vh;\\n    overflow: scroll;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqMultisiteTableColumnFilter",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqMultisiteTableColumnFilter"
+}

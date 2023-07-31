@@ -1,0 +1,26 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "cpqMultisitePremisesContainer.json",
+    "Description": "Display Premises Grid Table",
+    "OmniUiCardKey": "cpqMultisitePremisesContainer/Vlocity/1/1635848545966",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "cpqMultisiteServicePointContainer/Vlocity/1/1631617288795",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqMultisitePremisesContainer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqMultisitePremisesContainer"
+}

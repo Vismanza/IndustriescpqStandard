@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"options\": [{\"name\":\"\"}], \"value\": \"\", \"selectedCatalogsForPills\": [] }",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "PropertySetConfig": "cpqCatalogSearch.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqCatalogSearch/Vlocity/2/1651672605834",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "",
+    "SampleDataSourceResponse": "{\"options\":[{\"name\":\"\"}],\"value\":\"\",\"selectedCatalogsForPills\":[]}",
+    "StylingConfiguration": "{\"customStyles\":\".margin-top{\\n    margin-top: 5px;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 2,
+    "Name": "cpqCatalogSearch",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqCatalogSearch"
+}

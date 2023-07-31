@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 0,
+                "name": "Parent.view",
+                "val": "browse"
+            }
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "CPQDynamicForm.json",
+    "Description": "",
+    "OmniUiCardKey": "CPQDynamicForm/Vlocity/1/1620107541620",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "CPQAttributeConfigFields_filters/Vlocity/1/1611144678137",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\".vdfbutton{\\n    background-color: blue;\\n}\\nspan.slds-radio_faux, span.slds-checkbox_faux{\\n    margin-left: 25px !important;\\n} \\n.divider{\\n    text-align: center;\\n    margin-top: 24px;\\n}\\n\\n.checkbox-title-style .slds-form-element__legend{\\n    font-size: 12px;\\n    color: #3E3E3C;\\n    font-weight: bold;\\n}\\n\\n.attribute-title{\\n    font-size: 12px;\\n    color: #3E3E3C;\\n    font-weight: bold;\\n}\\n\\n.text-attribute-title label{\\n    font-size: 12px;\\n    color: #3E3E3C;\\n    font-weight: bold;\\n    padding-bottom: 20px;\\n    padding-top: 0px;\\n}\\n\\n.range-text{\\n    font-size: 12px;\\n    color: #7c7c7c;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "CPQDynamicForm",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/CPQDynamicForm"
+}

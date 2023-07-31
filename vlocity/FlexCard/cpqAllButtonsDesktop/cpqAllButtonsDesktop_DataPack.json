@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "Parent.cartId",
+                "val": "8015Y0000014vpCQAQ"
+            }
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "cpqAllButtonsDesktop.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqAllButtonsDesktop/Vlocity/5/1680005613673",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "cpqDesktopButtonGroup/Vlocity/1/1613642676514",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\"\\n.incomplete-btn {\\n    border: 1px solid #ddd;\\n    height: 32px;\\n    width: fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n    background: #C9C7C5;\\n    color: #FFFFFF;\\n    margin-right: 8px;\\n}\\n\\n.custom-btn{\\n    width:fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n}\\n\\n.custom-btn .slds-button{\\n    border-radius: 0px;\\n    margin-right: -1px;\\n}\\n\\n.submit-btn{\\n    width:fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n}\\n\\n.submit-btn .slds-button{\\n    border-radius: 0px;\\n    margin-right: 8px;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 5,
+    "Name": "cpqAllButtonsDesktop",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqAllButtonsDesktop"
+}

@@ -1,0 +1,33 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "{\"isCartHasError\": false}",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        }
+    },
+    "PropertySetConfig": "cpqSubmitButtonHeader.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqSubmitButtonHeader/Vlocity/5/1680696804698",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "cpqInProgressSubmittedMobile/Vlocity/1/1615228367794",
+    "SampleDataSourceResponse": "{\"isCartHasError\":false}",
+    "StylingConfiguration": "{\"customStyles\":\".custom-btn{\\n    width:fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n}\\n\\n.custom-btn .slds-button{\\n    border-radius: 0px;\\n}\\n\\n.incomplete-btn {\\n    border: 1px solid #ddd;\\n    height: 32px;\\n    width: fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n    background: #C9C7C5;\\n    color: #525252;\\n    border-radius: 0.25rem;\\n    margin-right: 8px;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 5,
+    "Name": "cpqSubmitButtonHeader",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqSubmitButtonHeader"
+}

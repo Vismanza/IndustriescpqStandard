@@ -1,0 +1,26 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "cpqConfigureCartAttributes.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqConfigureCartAttributes/Vlocity/5/1654155549015",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "cpqProductCartAttributes/Vlocity/1/1614580318359",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 2,
+    "Name": "cpqConfigureCartAttributes",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqConfigureCartAttributes"
+}

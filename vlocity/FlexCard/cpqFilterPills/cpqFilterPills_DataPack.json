@@ -1,0 +1,26 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "PropertySetConfig": "cpqFilterPills.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqFilterPills/Vlocity/2/1617254028770",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "{\"customStyles\":\".pill-style{\\n    width: fit-content;\\n    background: #F4F6F9;\\n}\\n\\n.empty-pill-state{\\n    display: none;\\n    \\n}\\n\\n.pill-text{\\n    color: #0070D2;\\n}\\n.max-100{\\n    max-width: 95%;\\n}\\n.pill-container{\\n    background: #F4F6F9;\\n    flex-wrap: nowrap;\\n    border:none;\\n    align-items: center;\\n    padding: 5px;\\n    overflow-x: unset;\\n    width: fit-content;\\n}\\n.fit-content{\\n    width:fit-content;\\n    max-width: 100%;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqFilterPills",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqFilterPills"
+}

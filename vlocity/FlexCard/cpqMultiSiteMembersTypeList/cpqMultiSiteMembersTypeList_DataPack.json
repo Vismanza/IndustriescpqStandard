@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\n\t\"result\": [\n\t\t{\n\t\t\t\"label\": \"Service Point\",\n\t\t\t\"value\": \"ServicePoint\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"Premises\",\n\t\t\t\"value\": \"Premises\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"Service Account\",\n\t\t\t\"value\": \"ServiceAccount\"\n\t\t},\n\t\t{\n\t\t\t\"label\": \"Subscriber\",\n\t\t\t\"value\": \"SubscriberAccount\"\n\t\t}\n\t]\n}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "PropertySetConfig": "cpqMultiSiteMembersTypeList.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqMultiSiteMembersTypeList/Vlocity/2/1633602453943",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "test123/Vlocity/1/1630569394415",
+    "SampleDataSourceResponse": "{\"result\":[{\"label\":\"Service Point\",\"value\":\"ServicePoint\"},{\"label\":\"Premises\",\"value\":\"Premises\"},{\"label\":\"Service Account\",\"value\":\"ServiceAccount\"},{\"label\":\"Subscriber\",\"value\":\"SubscriberAccount\"}]}",
+    "StylingConfiguration": "{\"customStyles\":\"\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqMultiSiteMembersTypeList",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqMultiSiteMembersTypeList"
+}

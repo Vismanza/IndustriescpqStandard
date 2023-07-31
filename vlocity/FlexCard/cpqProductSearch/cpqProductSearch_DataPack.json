@@ -1,0 +1,31 @@
+{
+    "AuthorName": "CPQ1",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"options\": [{\"name\":\"\"}], \"value\": \"\", \"select\": false, \"cartSelect\": false, \"catalogId\":-1,\"cartCatalogId\":-1, \"multiselectoptions\": [{\"name\":\"\"}], \"multiProdValue\": \"\", \"selectedProductsForPills\": [], \"resultQuery\":\"\",\"phaseSelect\":\"\"}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "PropertySetConfig": "cpqProductSearch.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqProductSearch/CPQ1/6/1651652732127",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "cpqProductSearch4/CPQ/1/1617886042395",
+    "SampleDataSourceResponse": "{\"options\":[{\"name\":\"\"}],\"value\":\"\",\"select\":false,\"cartSelect\":false,\"catalogId\":-1,\"cartCatalogId\":-1,\"multiselectoptions\":[{\"name\":\"\"}],\"multiProdValue\":\"\",\"selectedProductsForPills\":[],\"resultQuery\":\"\",\"phaseSelect\":\"\"}",
+    "StylingConfiguration": "{\"customStyles\":\".margin-top{\\n    margin-top: 5px;\\n}\\n\\n.cpq__product-search-field{\\n    background: #fafaf9;\\n    padding: 0.5rem 0;\\n    margin-top: -0.875rem;\\n}\\n\\n.cpq__product-search-field_cart-catalog label {\\n    display: none;\\n}\\n\\n.cpq__product-search-field_cart-catalog {\\n    background: #fafaf9;\\n    padding: 10px 0;\\n}\\n\\n.cpq__product-search-field_discount{\\n    padding: 0.5rem 0;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 6,
+    "Name": "cpqProductSearch",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqProductSearch"
+}

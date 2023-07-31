@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[]",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "PropertySetConfig": "cpqMultiSiteAppliedFilters.json",
+    "Description": "CPQ MultiSite Applied Filters Card",
+    "OmniUiCardKey": "cpqMultiSiteAppliedFilters/Vlocity/3/1632739936478",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "",
+    "SampleDataSourceResponse": "[]",
+    "StylingConfiguration": "{\"customStyles\":\".cpq__multisite-applied-filters_label {\\n    font-size: 13px;\\n    width: auto;\\n}\\n\\n.cpq__multisite-applied-filters_child-card {\\n    width: auto;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 1,
+    "Name": "cpqMultiSiteAppliedFilters",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqMultiSiteAppliedFilters"
+}

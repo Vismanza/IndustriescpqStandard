@@ -1,0 +1,31 @@
+{
+    "AuthorName": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"sites\": {}, \"selectedRows\": [], \"selectedGroupsCount\": 0, \"selectedUngroupedRecordsCount\": 0, \"selectedGroupedMembersCount\": 0, \"selectedGroupsInfoLabel\": \"0 groups selected\",\n\"selectedUngroupedRecordsInfoLabel\": \"0 ungrouped items selected\", \"selectedGroupedMembersInfoLabel\": \"0 grouped item selected\", \"selected\":false,\"totalCount\":0}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "PropertySetConfig": "cpqMultisiteGridTable.json",
+    "Description": "",
+    "OmniUiCardKey": "cpqMultisiteGridTable/Vlocity/4/1677683605882",
+    "OmniUiCardType": "Child",
+    "%vlocity_namespace%__ParentID__c": "TestTreeGridLWC/Vlocity/1/1630570098283",
+    "SampleDataSourceResponse": "{\"sites\":{},\"selectedRows\":[],\"selectedGroupsCount\":0,\"selectedUngroupedRecordsCount\":0,\"selectedGroupedMembersCount\":0,\"selectedGroupsInfoLabel\":\"0 groups selected\",\"selectedUngroupedRecordsInfoLabel\":\"0 ungrouped items selected\",\"selectedGroupedMembersInfoLabel\":\"0 grouped item selected\",\"selected\":false,\"totalCount\":0}",
+    "StylingConfiguration": "",
+    "%vlocity_namespace%__Type__c": "",
+    "VersionNumber": 4,
+    "Name": "cpqMultisiteGridTable",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/cpqMultisiteGridTable"
+}
