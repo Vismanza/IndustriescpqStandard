@@ -21,7 +21,7 @@ What are the workaround steps?
 [{ "cpq": "cpq" }]
 ```
 
-![Example](/images/Issue1-datasource.png?raw=true "Example")
+![Example](/docs/images/Issue1-datasource.png?raw=true "Example")
 
 ## Issue 2 : Nested IPs
 
