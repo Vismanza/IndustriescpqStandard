@@ -1727,20 +1727,6 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>productName5140158987117771</globalKey>
-        <inputFieldName>records:actions:addtocart:remote:params:price</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>productName</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>records:actions:addtocart:remote:params:price</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
         <globalKey>productName06329301058235126</globalKey>
         <inputFieldName>records:Product2:vlocity_cmt__ProductSpecId__r:Id</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
@@ -1748,6 +1734,20 @@
         <name>productName</name>
         <outputCreationSequence>1.0</outputCreationSequence>
         <outputFieldName>records:Product2:vlocity_cmt__ProductSpecId__r:Id</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>productName5140158987117771</globalKey>
+        <inputFieldName>records:actions:addtocart:remote:params:price</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>productName</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>records:actions:addtocart:remote:params:price</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
@@ -1839,20 +1839,6 @@
     <omniDataTransformItem>
         <disabled>false</disabled>
         <filterGroup>0.0</filterGroup>
-        <globalKey>productName9708133075871122</globalKey>
-        <inputFieldName>records:actions:addtocart:remote:params:pagesize</inputFieldName>
-        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
-        <linkedObjectSequence>0.0</linkedObjectSequence>
-        <name>productName</name>
-        <outputCreationSequence>1.0</outputCreationSequence>
-        <outputFieldName>records:actions:addtocart:remote:params:pagesize</outputFieldName>
-        <outputObjectName>json</outputObjectName>
-        <requiredForUpsert>false</requiredForUpsert>
-        <upsertKey>false</upsertKey>
-    </omniDataTransformItem>
-    <omniDataTransformItem>
-        <disabled>false</disabled>
-        <filterGroup>0.0</filterGroup>
         <globalKey>productName709105964253506</globalKey>
         <inputFieldName>records:Product2:vlocity_cmt__ProductSpecId__r:vlocity_cmt__SpecificationType__c</inputFieldName>
         <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
@@ -1860,6 +1846,20 @@
         <name>productName</name>
         <outputCreationSequence>1.0</outputCreationSequence>
         <outputFieldName>records:Product2:vlocity_cmt__ProductSpecId__r:vlocity_cmt__SpecificationType__c</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>productName9708133075871122</globalKey>
+        <inputFieldName>records:actions:addtocart:remote:params:pagesize</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>productName</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>records:actions:addtocart:remote:params:pagesize</outputFieldName>
         <outputObjectName>json</outputObjectName>
         <requiredForUpsert>false</requiredForUpsert>
         <upsertKey>false</upsertKey>
